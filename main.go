@@ -26,7 +26,7 @@ var (
 	screenWidth  int
 	screenHeight int
 	debugFlag    = flag.Bool("d", false, "debug mode") //是否为调试模式
-	threadLock   sync.Locker
+	threadLock   sync.Mutex
 )
 
 func main() {
