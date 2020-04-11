@@ -53,6 +53,7 @@ func serviceExit() {
 
 func script() {
 	go temporarilyLeave()
+	go queue()
 }
 
 //暂离功能
