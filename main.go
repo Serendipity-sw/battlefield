@@ -52,6 +52,7 @@ func serviceExit() {
 }
 
 func script() {
+time.Sleep(3 * time.Second)
 	go temporarilyLeave()
 	go queue()
 }
